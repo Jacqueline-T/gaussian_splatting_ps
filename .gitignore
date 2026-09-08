@@ -1,0 +1,38 @@
+# ============================================================
+# Generated bag recordings
+# ============================================================
+rosbag2_*/
+
+# ============================================================
+# Generated odometry output (tests/validation_test.py)
+# ============================================================
+*.csv
+camera_intrinsics.json
+odometry_debug_frames/
+odometry_trusted_frames/
+
+# ============================================================
+# Generated fusion output (fusion_pipe_1.py)
+# ============================================================
+fused_pointcloud.ply
+
+# ============================================================
+# Generated transform export (transform_pipe_2.py)
+# ============================================================
+transforms.json
+
+# ============================================================
+# Generated verification screenshots (tests/verify_transforms.py --headless)
+# ============================================================
+transforms_check.png
+
+# ============================================================
+# Common output directory used by --output-dir / --input-dir
+# across validation_test.py, fusion_pipe_1.py, and transform_pipe_2.py
+# ============================================================
+output/
+
+# ============================================================
+# Nerfstudio training output (checkpoints, logs, configs per run)
+# ============================================================
+outputs/
